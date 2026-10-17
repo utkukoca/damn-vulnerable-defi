@@ -1,3 +1,23 @@
+# Damn Vulnerable DeFi: my solutions
+
+These are my solutions to [Damn Vulnerable DeFi v4](https://github.com/theredguild/damn-vulnerable-defi) by The Red Guild (originally by @tinchoabbate). I solve each challenge without reading other people's solutions. For each one I write up the bug, **how I found it**, and how I'd fix it.
+
+Companion repo: [smart-contract-security-lab](https://github.com/utkukoca/smart-contract-security-lab), where I write vulnerable contracts myself and then exploit and fix them.
+
+| # | Challenge | Status | Write-up |
+|---|-----------|--------|----------|
+| 1 | Unstoppable | ⬜ | [01-unstoppable](solutions/01-unstoppable.md) |
+| 2 | Naive Receiver | ⬜ | [02-naive-receiver](solutions/02-naive-receiver.md) |
+| 3 | Truster | ⬜ | [03-truster](solutions/03-truster.md) |
+
+Run a single challenge's exploit:
+
+```bash
+forge test --mp test/unstoppable/Unstoppable.t.sol
+```
+
+---
+
 # Damn Vulnerable DeFi
 
 Damn Vulnerable DeFi is _the_ smart contract security playground for developers, security researchers and educators.
